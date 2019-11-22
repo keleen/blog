@@ -1,5 +1,6 @@
 ### Hello world
 1. 我的看法是这样的
+2. 我想我很快乐
 
 ```js
 export default {
