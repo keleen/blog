@@ -3,6 +3,11 @@
 ## 简介
 
   创意市场是依附于穿云箭平台的一个子系统，主要用于广告主发布创意需求和创意者制作创意的平台。
+
+
+### 原型
+See [地址](http://product.altamob.com/CMC/creativemarket20190905/start.html).
+
 ## 仓库地址
 ```
 git@gitlab.chumob.com:synative/creative-center.git
@@ -207,3 +212,10 @@ http://doc.codex.com/showdoc/index.php?s=/34&page_id=649
 ### menu.js 功能
 1. vue router 、页面菜单、角色级别权限控制集一身的配置
 2. 属性 `component` 的值源于 `pages/index.js`的组件
+
+### 如何登录测试环境
+> 执行一下步骤的前提是，正式环境和测试环境有相同的账户。
+
+1. 登录正式环境然后进入创意市场，比如登录后：`http://drama.tyrise.com/dist/?#/app/creator/order/list`
+2. 修改 url 中 `#` 后面的路由：`http://drama.tyrise.com/dist/?#/biu`
+3. 点击图片会自动调整到测试环境
